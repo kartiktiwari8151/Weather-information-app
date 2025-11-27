@@ -1,31 +1,29 @@
 # 🌦️ Weather App (Android | Java | OpenWeather API)
 
 ## 📌 Project Overview
-Weather App ek Android application hai jo **Java** aur **OpenWeather API** ka use karke real-time weather information provide karta hai. User kisi bhi city ka naam enter karta hai aur app turant us location ka current weather data fetch karke display karta hai.
-
-Is app ka UI clean, simple aur user-friendly design par based hai jisse weather details easily readable rehti hain.
+The Weather App is an Android application developed using **Java** and the **OpenWeather API** to provide real-time weather information for any city entered by the user. The app features a simple, clean, and modern user interface that allows users to quickly fetch updated weather details.
 
 ---
 
 ## 🚀 Features
-- 🌍 Kisi bhi city ka real-time weather data
+- 🌍 Real-time weather information for any city
 - 🌡️ Current temperature
 - 🤗 Feels-like temperature
-- ☁️ Weather condition (e.g., Smoke, Clear, Rain)
+- ☁️ Weather condition (Clear, Smoke, Rain, etc.)
 - 💧 Humidity level
 - 🌬️ Wind speed
-- ⏲️ Fast & accurate data fetching
-- 🎨 Clean and modern UI
+- ⏲️ Fast and accurate data retrieval
+- 🎨 Clean and user-friendly UI
 
 ---
 
-## 📊 Weather Details Shown
-For example, city **Delhi**:
+## 📊 Weather Data Displayed
+For example, when searching **Delhi**, the app displays:
 - Temperature: `22.05°C`
 - Feels Like: `21.36°C`
 - Weather Condition: `Smoke`
 - Humidity: `40%`
-- Pressure: `1017 hPa`
+- Atmospheric Pressure: `1017 hPa`
 - Wind Speed: `1.54 m/s`
 
 ---
@@ -36,7 +34,7 @@ For example, city **Delhi**:
 - **OpenWeather API**
 - **HTTP Requests**
 - **JSON Parsing**
-- **Android UI/UX Components**
+- **Android UI Components**
 
 ---
 
@@ -47,15 +45,15 @@ For example, city **Delhi**:
 ---
 
 ## 📱 How It Works
-1. User enters city name
-2. App sends HTTP request to OpenWeather API
-3. API returns weather data in JSON format
-4. App parses JSON response
-5. Weather details are displayed on the screen
+1. User enters a city name.
+2. The app sends an HTTP request to the OpenWeather API.
+3. The API returns weather data in JSON format.
+4. The app parses the JSON response.
+5. Weather information is displayed in an easy-to-read format.
 
 ---
 
 ## ✅ Installation & Setup
-1. Clone the repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/weather-app.git
